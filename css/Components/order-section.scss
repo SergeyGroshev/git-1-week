@@ -1,0 +1,18 @@
+.order-section {
+    background: url("../../img/pattern.png");
+    position: relative;
+
+   &::before {
+       content: url("../../img/leafbig.png");
+       position: absolute;
+       right: 5%;
+       bottom: 5%;
+   }
+   
+   &::after {
+       content: url("../../img/berry1.png");
+       position: absolute;
+       left: 5%;
+       bottom: 5%;
+   }
+}
