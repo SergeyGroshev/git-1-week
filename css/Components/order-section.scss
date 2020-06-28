@@ -10,9 +10,15 @@
    }
    
    &::after {
-       content: url("../../img/berry1.png");
+       content: url("../../img/blueberry.png");
        position: absolute;
        left: 5%;
        bottom: 5%;
+   }
+
+   @include tablets {
+    &::before, &::after {
+        display: none;
+    }
    }
 }

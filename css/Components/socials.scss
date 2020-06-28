@@ -1,0 +1,34 @@
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: rem(7px);
+    transition: 0.3s;
+}
+.socials__item:hover {
+    opacity: 60%;
+}
+.socials {
+    margin-right: rem(72px);
+}
+.socials__item:last-child {
+    margin-right: 0;
+}
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: rem(36px);
+    height: rem(36px);
+    background: center center no-repeat;
+}
+.socials__item--icon--tlgm .socials__link {
+    background: url("../../img/vk.png") no-repeat;
+}
+.socials__item--icon--vk .socials__link {
+    background: url("../../img/fb_hover.png") no-repeat;
+}
+.socials__item--icon--facebook .socials__link {
+    background: url("../../img/inst.png") no-repeat;
+}
+.socials__item--icon--instagram .socials__link {
+    background: url("../../img/twitter.png") no-repeat;
+}

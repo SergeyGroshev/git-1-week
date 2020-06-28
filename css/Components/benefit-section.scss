@@ -2,10 +2,22 @@
     position: relative;
     background: url("../../img/leafgrey.png") left top 57% no-repeat;
 
+    @include phones {
+        background: none;
+    }
+    @include tablets {
+        background: url("../../img/leafgrey.png") left top 12% no-repeat;
+    }
+
     &::before {
         content: url("../../img/berrychocolate.png");
         position: absolute;
-        bottom: -80px;
+        bottom: rem(-80px);
         left: 0;
+        
+        @include phones {
+            display: none;
+        }
+    
     }
 }
